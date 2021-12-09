@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+}
+::-webkit-scrollbar{
+  width: 0;
+}
+
+#container {
+  display: inline-flex;
+}
+
+.container {
+  width: 40vw;
+  height: 10%;
+  box-shadow: 0 4px 8px 0 rgba(44, 108, 180, 0.527),
+    0 6px 20px 0 rgba(44, 108, 180, 0.267);
+  background-color: rgb(225, 240, 247);
+  padding: 2vh 2vw;
+  margin: 5vh 5vw;
+}
+td{
+  max-width: 10vw;
+  overflow: scroll;
+}
+
+/* button {
+  background-color: skyblue;
+  width: 20%;
+  padding: 1vw;
+  margin: 2vw 0;
+  border: 1px solid gray;
+} */
+
+input[type="text"], input[type="submit"] {
+  width: 20%;
+  padding: 1vw;
+  margin: 1vw 0;
+  border: 1px solid gray;
+}
